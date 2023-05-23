@@ -4,7 +4,7 @@ A console-based C# implementation of the "Rock - Paper - Scissors" game.
 
 <img alt="RPS Picture" width="525px" src="https://media.istockphoto.com/id/1395632555/vector/colorful-hand-icon-set.jpg?s=612x612&w=0&k=20&c=g6r4Oms6euKipRCjlwLx-8MPs1pajjnP4_aK0r6HEeo=">
 
-<a href="https://github.com/TripleFlacko/RPS-GameByTripleFlacko/blob/main/RPS%20Game/RPS-Game.cs">RPS</a> is a simple two player game, where you and your oponent (the computer) simultaneously choosoe one of the following three options: "**rock**", "**paper**" or "**scissors**". The rules are as follows:
+<a href="https://github.com/TripleFlacko/RPS-GameByTripleFlacko/blob/main/RPS%20Game/RPS-Game.cs">RPS</a> is a simple two player game, where you and your oponent (the computer) simultaneously choose one of the following three options: "**rock**", "**paper**" or "**scissors**". The rules are as follows:
 * **Rock beats scissors** (the scissors get broken by the rock)
 * **Scissors beats paper** (the paper get cut by the scissors)
 * **Paper beats rock** (the paper covers the rock)
