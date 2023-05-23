@@ -39,7 +39,7 @@ class Program
                 case 2: computerMove = Paper; break;
                 case 3: computerMove = Scissors; break;
             }
-            Console.ForegroundColor = ConsoleColor.DarkYellow;
+            Console.ForegroundColor = ConsoleColor.White;
             Console.WriteLine($"The computer chose {computerMove}.");
 
             if ((playerMove == Rock && computerMove == Scissors) || (playerMove == Paper && computerMove == Rock) || (playerMove == Scissors && computerMove == Paper))
@@ -48,7 +48,7 @@ class Program
                 playerScore++;
                 Console.WriteLine("You win.");
                 Console.WriteLine();
-                Console.ForegroundColor = ConsoleColor.Gray;
+                Console.ForegroundColor = ConsoleColor.White;
                 Console.WriteLine($"The score is:\nPlayer: {playerScore}\nComputer: {computerScore}");
             }
             else if ((playerMove == Rock && computerMove == Paper) || (playerMove == Paper && computerMove == Scissors) || (playerMove == Scissors && computerMove == Rock))
@@ -57,7 +57,7 @@ class Program
                 computerScore++;
                 Console.WriteLine("You lose.");
                 Console.WriteLine();
-                Console.ForegroundColor = ConsoleColor.Gray;
+                Console.ForegroundColor = ConsoleColor.White;
                 Console.WriteLine($"The score is:\nPlayer: {playerScore}\nComputer: {computerScore}");
             }
             else
@@ -67,12 +67,12 @@ class Program
                 playerScore++;
                 computerScore++;
                 Console.WriteLine();
-                Console.ForegroundColor = ConsoleColor.Gray;
+                Console.ForegroundColor = ConsoleColor.White;
                 Console.WriteLine($"The score is:\nPlayer: {playerScore}\nComputer: {computerScore}");
             }
 
             Console.WriteLine();
-            Console.ForegroundColor = ConsoleColor.Cyan;
+            Console.ForegroundColor = ConsoleColor.White;
             Console.WriteLine(@"If you want to play again, type ""Y"". To quit the game type ""N"":");
 
             while (true)
