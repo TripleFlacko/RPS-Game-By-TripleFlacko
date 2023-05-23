@@ -10,10 +10,11 @@ class Program
 
         var playerScore = 0;
         var computerScore = 0;
-
+        Console.ForegroundColor = ConsoleColor.White;
+        Console.WriteLine("RPS is a Rock Paper Scissors game created by TripleFlacko.");
         while (true)
         {
-            Console.ForegroundColor = ConsoleColor.Cyan;
+            Console.ForegroundColor = ConsoleColor.White;
             Console.Write("Choose [r]ock, [p]aper or [s]cissors: ");
             var playerMove = Console.ReadLine();
 
