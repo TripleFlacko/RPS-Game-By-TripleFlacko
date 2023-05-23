@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Drawing;
-using System.Net.Http.Headers;
 
 class Program
 {
