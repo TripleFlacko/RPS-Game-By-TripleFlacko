@@ -10,6 +10,9 @@ class Program
         const string Paper = "Paper";
         const string Scissors = "Scissors";
 
+        var playerScore = 0;
+        var computerScore = 0;
+
         while (true)
         {
             Console.ForegroundColor = ConsoleColor.Cyan;
@@ -43,17 +46,30 @@ class Program
             if ((playerMove == Rock && computerMove == Scissors) || (playerMove == Paper && computerMove == Rock) || (playerMove == Scissors && computerMove == Paper))
             {
                 Console.ForegroundColor = ConsoleColor.Green;
+                playerScore++;
                 Console.WriteLine("You win.");
+                Console.WriteLine();
+                Console.ForegroundColor = ConsoleColor.Gray;
+                Console.WriteLine($"The score is:\nPlayer: {playerScore}\nComputer: {computerScore}");
             }
             else if ((playerMove == Rock && computerMove == Paper) || (playerMove == Paper && computerMove == Scissors) || (playerMove == Scissors && computerMove == Rock))
             {
                 Console.ForegroundColor = ConsoleColor.Red;
+                computerScore++;
                 Console.WriteLine("You lose.");
+                Console.WriteLine();
+                Console.ForegroundColor = ConsoleColor.Gray;
+                Console.WriteLine($"The score is:\nPlayer: {playerScore}\nComputer: {computerScore}");
             }
             else
             {
                 Console.ForegroundColor = ConsoleColor.Yellow;
                 Console.WriteLine("This game was a draw.");
+                playerScore++;
+                computerScore++;
+                Console.WriteLine();
+                Console.ForegroundColor = ConsoleColor.Gray;
+                Console.WriteLine($"The score is:\nPlayer: {playerScore}\nComputer: {computerScore}");
             }
 
             Console.WriteLine();
