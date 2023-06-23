@@ -1,8 +1,8 @@
-# The "RPS" Game By TripleFlacko
+# [The "RPS" Game By TripleFlacko](https://replit.com/@TripleFlacko/RPS-Game-By-TripleFlacko/)
 
 A console-based C# implementation of the "Rock - Paper - Scissors" game.
 
-<img alt="RPS Picture" width="525px" src="https://media.istockphoto.com/id/1395632555/vector/colorful-hand-icon-set.jpg?s=612x612&w=0&k=20&c=g6r4Oms6euKipRCjlwLx-8MPs1pajjnP4_aK0r6HEeo=">
+<a href="https://replit.com/@TripleFlacko/RPS-Game-By-TripleFlacko/"><img alt="RPS Picture" width="525px" src="https://media.istockphoto.com/id/1395632555/vector/colorful-hand-icon-set.jpg?s=612x612&w=0&k=20&c=g6r4Oms6euKipRCjlwLx-8MPs1pajjnP4_aK0r6HEeo="></a>
 
 <a href="https://replit.com/@TripleFlacko/RPS-Game-By-TripleFlacko">RPS</a> is a simple two player game, where you and your oponent (the computer) simultaneously choose one of the following three options: "**rock**", "**paper**" or "**scissors**". The rules are as follows:
 * **Rock beats scissors** (the scissors get broken by the rock)
@@ -107,5 +107,5 @@ We handle all these situations using a series of checks.
 You can play the game directly in your Web browser <a href="https://replit.com/@TripleFlacko/RPS-Game-By-TripleFlacko">here</a>:
 
 <div>
-  <a href="https://replit.com/@TripleFlacko/RPS-Game-By-TripleFlacko"><img src="https://raw.githubusercontent.com/TripleFlacko/RPS-Game-By-TripleFlacko/main/live-preview.png" alt="Play Button"></a>
+  <a href="https://replit.com/@TripleFlacko/RPS-Game-By-TripleFlacko"><img src="live-preview.png" alt="Play Button"></a>
 </div>
