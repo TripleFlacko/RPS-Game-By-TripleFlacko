@@ -106,4 +106,6 @@ We handle all these situations using a series of checks.
 
 You can play the game directly in your Web browser <a href="https://replit.com/@TripleFlacko/RPS-Game-By-TripleFlacko">here</a>:
 
-<a href="https://replit.com/@TripleFlacko/RPS-Game-By-TripleFlacko"><img alt="Play Button" src="https://github.com/TripleFlacko/RPS-GameByTripleFlacko/assets/119543923/25527a14-a90d-4bf8-b78a-c26662657d42"/></a>
+<div>
+  <a href="https://replit.com/@TripleFlacko/RPS-Game-By-TripleFlacko"><img src="https://github.com/TripleFlacko/RPS-GameByTripleFlacko/assets/119543923/25527a14-a90d-4bf8-b78a-c26662657d42" alt="Play Button"></a>
+</div>
